@@ -1,0 +1,15 @@
+.banner .carousel_list{
+  width: 600%;
+  overflow: hidden;
+  transition: transform .5s ease 0s;
+}
+.banner .carousel_list li{
+  float: left;
+  width: 16.66%;
+}
+.banner .carousel_list li img {
+  width: 100%;
+  /* 图片或者表单等行内块元素，它的底线会和父级盒子的基线对齐，这样会造成图片底侧会有一个空白缝隙 */
+  /* 白边的处理 设置成块级元素设置之后图片就不会产生缝隙了*/
+  display:block;
+}
